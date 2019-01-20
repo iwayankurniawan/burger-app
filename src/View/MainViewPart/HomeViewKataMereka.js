@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Redirect } from 'react-router';
 
-class SideBarView extends Component {
+class HomeViewKataMereka extends Component {
   constructor(props) {
     super(props)
     // We put on state the properties we want to use and modify in the component
@@ -29,11 +29,13 @@ class SideBarView extends Component {
   render() {
     return(
       <div>
-        <p>Ini Bagian SideBar</p>
+        <div className="row">
+          <p>Kata Mereka</p>
+        </div>
       </div>
+
     );
   }
-
 }
 
-export default SideBarView;
+export default HomeViewKataMereka;

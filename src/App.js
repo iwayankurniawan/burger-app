@@ -5,7 +5,7 @@ import { Route } from 'react-router-dom';
 
 import HeaderProjectView from './View/HeaderBarView';
 import MainView from './View/MainView';
-import SideBarView from './View/SideBarView';
+import FooterView from './View/FooterView';
 
 import logo from './logo.svg';
 import './App.css';
@@ -19,12 +19,12 @@ class App extends Component {
           <HeaderProjectView model={modelInstance}/>
         </div>
         <div className="row">
-          <div className="sidebar col-sm-4">
-            <SideBarView model={modelInstance}/>
-          </div>
-          <div className="main-content col-sm-8">
+          <div className="main-content col-sm-12">
             <Route path="/"  render={() => <MainView model={modelInstance}/>}/>
           </div>
+        </div>
+        <div className="row">
+          <FooterView model={modelInstance}/>
         </div>
       </div>
     );

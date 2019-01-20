@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Redirect } from 'react-router';
 
-class HeaderBarView extends Component {
+class HomeViewMenu extends Component {
   constructor(props) {
     super(props)
     // We put on state the properties we want to use and modify in the component
@@ -28,25 +28,14 @@ class HeaderBarView extends Component {
 
   render() {
     return(
-      <div className="row">
-        <div className="col-sm-4">
-          <p className="col-sm-3">Logo</p>
-          <p className="col-sm-3">Kebab</p>
-          <p className="col-sm-3">Minuman</p>
-          <p className="col-sm-3">Lokasi</p>
-        </div>
-        <div className="col-sm-5">
-        </div>
-        <div className="col-sm-3">
-          <p className="col-sm-4">Story</p>
-          <p className="col-sm-4">Kontak</p>
-          <p className="col-sm-4">Karir</p>
+      <div>
+        <div className="row">
+          <p>Pilihan Menu</p>
         </div>
       </div>
+
     );
   }
-
-
 }
 
-export default HeaderBarView;
+export default HomeViewMenu;

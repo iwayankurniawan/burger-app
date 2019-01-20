@@ -2,6 +2,13 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Redirect } from 'react-router';
 
+import HomeView from './MainViewPart/HomeView';
+import HomeViewStory from './MainViewPart/HomeViewStory';
+import HomeViewKataMereka from './MainViewPart/HomeViewKataMereka';
+import HomeViewMenu from './MainViewPart/HomeViewMenu';
+import HomeViewOutlet from './MainViewPart/HomeViewOutlet';
+import HomeViewKarir from './MainViewPart/HomeViewKarir';
+
 class MainView extends Component {
   constructor(props) {
     super(props)
@@ -29,8 +36,26 @@ class MainView extends Component {
   render() {
     return(
       <div>
-        <p>Ini Main Content Part</p>
+        <div className="row">
+          <HomeView model={this.props.model}/>
+        </div>
+        <div className="row">
+          <HomeViewStory model={this.props.model}/>
+        </div>
+        <div className="row">
+          <HomeViewKataMereka model={this.props.model}/>
+        </div>
+        <div className="row">
+          <HomeViewMenu model={this.props.model}/>
+        </div>
+        <div className="row">
+          <HomeViewOutlet model={this.props.model}/>
+        </div>
+        <div className="row">
+          <HomeViewKarir model={this.props.model}/>
+        </div>
       </div>
+
     );
   }
 }
