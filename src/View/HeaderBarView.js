@@ -30,7 +30,7 @@ class HeaderBarView extends Component {
     return(
       <div className="row">
         <div className="col-sm-4">
-          <p className="col-sm-3">Logo</p>
+          <img src={require('../Images/kabobs-logo.svg')} className="img-size img-responsive col-sm-3 img-thumbnail img-fluid"/>
           <p className="col-sm-3">Kebab</p>
           <p className="col-sm-3">Minuman</p>
           <p className="col-sm-3">Lokasi</p>

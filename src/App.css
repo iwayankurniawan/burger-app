@@ -18,6 +18,11 @@
   color: white;
 }
 
+.header-bar{
+  font-family: 'Poppins', sans-serif;
+  font-weight: Bold;
+}
+
 .App-link {
   color: #61dafb;
 }

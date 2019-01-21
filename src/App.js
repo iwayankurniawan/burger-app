@@ -6,6 +6,11 @@ import { Route } from 'react-router-dom';
 import HeaderProjectView from './View/HeaderBarView';
 import MainView from './View/MainView';
 import FooterView from './View/FooterView';
+import MenuView from './View/MenuView';
+import LocationView from './View/LocationView';
+import StoryView from './View/StoryView';
+import ContactView from './View/ContactView';
+import KarirView from './View/KarirView';
 
 import logo from './logo.svg';
 import './App.css';
