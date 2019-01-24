@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Redirect } from 'react-router';
 
+import './FooterView.css';
+
 class FooterView extends Component {
   constructor(props) {
     super(props)
@@ -28,8 +30,8 @@ class FooterView extends Component {
 
   render() {
     return(
-      <div className="row">
-        <p>Footer</p>
+      <div className="row black_Background col-sm-12">
+        <h1>Footer</h1>
       </div>
     );
   }
