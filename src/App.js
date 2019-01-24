@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { modelInstance } from './StoreData/DataModel';
 import { Redirect } from 'react-router';
-import { Route } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
 import HeaderProjectView from './View/HeaderBarView';
 import MainView from './View/MainView';
@@ -25,7 +25,14 @@ class App extends Component {
         </div>
         <div className="row">
           <div className="main-content col-sm-12">
-            <Route path="/"  render={() => <MainView model={modelInstance}/>}/>
+            <Switch>
+              <Route path="/menu"  render={() => <MenuView model={modelInstance}/>}/>
+              <Route path="/outlet"  render={() => <LocationView model={modelInstance}/>}/>
+              <Route path="/kontak"  render={() => <ContactView model={modelInstance}/>}/>
+              <Route path="/story"  render={() => <StoryView model={modelInstance}/>}/>            
+              <Route path="/karir"  render={() => <KarirView model={modelInstance}/>}/>   
+              <Route path="/"  render={() => <MainView model={modelInstance}/>}/>          
+            </Switch>
           </div>
         </div>
         <div className="row">

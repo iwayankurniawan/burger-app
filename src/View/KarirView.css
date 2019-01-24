@@ -1,0 +1,19 @@
+.karir-background {
+/*  background-image: url("/w3images/photographer.jpg");*/
+  background-color: #D92C27;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.karir-background-white {
+/*  background-image: url("/w3images/photographer.jpg");*/
+  background-color: #FFFFFF;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
