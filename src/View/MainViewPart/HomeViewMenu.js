@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Redirect } from 'react-router';
 
+import './HomeViewMenu.css';
+
 class HomeViewMenu extends Component {
   constructor(props) {
     super(props)
@@ -15,7 +17,7 @@ class HomeViewMenu extends Component {
     this.props.model.addObserver(this);
   }
 
-  componentWillUnmount() {
+  componentWillUnmount() { 
     this.props.model.removeObserver(this);
   }
 
@@ -28,11 +30,20 @@ class HomeViewMenu extends Component {
 
   render() {
     return(
-      <div>
-        <div className="row">
-          <p>Pilihan Menu</p>
-        </div>
-      </div>
+      <div>                
+          <div className="col-sm-6 nopadding">
+              <img src={require('./ImagesView/Blackpepper-Kebab.jpg')} className="img-responsive img-fluid img-title"/>
+          </div>
+          <div className="col-sm-6 nopadding">
+              <img src={require('./ImagesView/Beef-Cheese- Kebab.jpg')} className="img-responsive img-fluid img-title"/>
+          </div>
+          <div className="col-sm-6 nopadding">
+              <img src={require('./ImagesView/Beef-Cheesy-Mayo-Kebab.jpg')} className="img-responsive img-fluid img-title"/>
+          </div>
+          <div className="col-sm-6 nopadding">
+              <img src={require('./ImagesView/Supreme-Kebab-2.jpg')} className="img-responsive img-fluid img-title"/>
+          </div>      
+    </div>
 
     );
   }

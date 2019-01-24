@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Redirect } from 'react-router';
 
 import HomeView from './MainViewPart/HomeView';
+import HomeViewSlides from './MainViewPart/HomeViewSlides';
 import HomeViewStory from './MainViewPart/HomeViewStory';
 import HomeViewKataMereka from './MainViewPart/HomeViewKataMereka';
 import HomeViewMenu from './MainViewPart/HomeViewMenu';
@@ -37,11 +38,15 @@ class MainView extends Component {
     return(
       <div>
         <div className="row">
+          <HomeViewSlides model={this.props.model}/>
+        </div>
+        <div className="row">
           <HomeView model={this.props.model}/>
         </div>
         <div className="row">
           <HomeViewStory model={this.props.model}/>
         </div>
+        
         <div className="row">
           <HomeViewKataMereka model={this.props.model}/>
         </div>

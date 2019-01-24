@@ -29,9 +29,18 @@ class HomeViewStory extends Component {
   render() {
     return(
       <div>
-        <div className="row">
-          <p>Kabobs Story</p>
-        </div>
+          <div className="col-sm-1">              
+          </div>
+          <div className="col-sm-6">
+              <img src={require('./ImagesView/LandingPage/model.png')} className="img-responsive img-fluid img-title"/>
+          </div>
+          <div className="col-sm-4">
+            <h1>Kebabs Premium Kebabs</h1>
+            <p>Hadir sebagai teman yang memberikan rasa kenyang dan rasa nyaman. Menyajikan berbagai olahan kebab dengan banyak varian rasa dan aneka minuman. Bisa ditemui di 18 gerai di Kota Bandung dengan crew outlet yang senantiasa memberikan pelayanan dan senyum terbaik mereka.</p>
+            <div className="row">
+            <button type="button" class="btn btn-outline-secondary btn-lg button-style">Kabobs Story</button>
+          </div>
+          </div>
       </div>
 
     );

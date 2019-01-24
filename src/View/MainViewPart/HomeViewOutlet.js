@@ -29,8 +29,14 @@ class HomeViewOutlet extends Component {
   render() {
     return(
       <div>
-        <div className="row">
-          <p>Outlet</p>
+        <div className="col-sm-6">
+            <img src={require('./ImagesView/LandingPage/outlet-image.png')} className="img-responsive img-fluid img-title"/>
+        </div>
+        <div className="col-sm-4">
+          <h1>KABOBS MEMILIKI 18 OUTLET YANG TERSEBAR DI KOTA BANDUNG DAN SEKITARNYA.</h1>
+          <div className="row">
+          <button type="button" class="btn btn-outline-secondary btn-lg button-style">Semua Outlet</button>
+        </div>
         </div>
       </div>
 
