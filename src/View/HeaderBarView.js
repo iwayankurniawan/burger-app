@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Redirect } from 'react-router';
 
+import './HeaderBarView.css';
+
 class HeaderBarView extends Component {
   constructor(props) {
     super(props)
@@ -28,7 +30,7 @@ class HeaderBarView extends Component {
 
   render() {
     return(
-      <div className="row">
+      <div>
         <div className="col-sm-4">
           <img src={require('../Images/kabobs-logo.svg')} className="img-size img-responsive col-sm-3 img-thumbnail img-fluid"/>
           <p className="col-sm-3">Kebab</p>

@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Redirect } from 'react-router';
 
+import './StoryView.css';
+
 class StoryView extends Component {
   constructor(props) {
     super(props)
@@ -29,6 +31,9 @@ class StoryView extends Component {
   render() {
     return(
       <div>
+        <div className="row story-background">
+          <p>Story</p>
+        </div>
       {/*Main Image*/}
         <div className="row">
           <p>Image</p>

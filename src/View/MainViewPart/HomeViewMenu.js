@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Redirect } from 'react-router';
 
+import { MDBCarousel, MDBCarouselCaption, MDBCarouselInner, MDBCarouselItem, MDBView, MDBMask, MDBContainer } from
+'mdbreact';
+
 import './HomeViewMenu.css';
 
 class HomeViewMenu extends Component {
@@ -30,21 +33,22 @@ class HomeViewMenu extends Component {
 
   render() {
     return(
-      <div>                
-          <div className="col-sm-6 nopadding">
-              <img src={require('./ImagesView/Blackpepper-Kebab.jpg')} className="img-responsive img-fluid img-title"/>
-          </div>
-          <div className="col-sm-6 nopadding">
-              <img src={require('./ImagesView/Beef-Cheese- Kebab.jpg')} className="img-responsive img-fluid img-title"/>
-          </div>
-          <div className="col-sm-6 nopadding">
-              <img src={require('./ImagesView/Beef-Cheesy-Mayo-Kebab.jpg')} className="img-responsive img-fluid img-title"/>
-          </div>
-          <div className="col-sm-6 nopadding">
-              <img src={require('./ImagesView/Supreme-Kebab-2.jpg')} className="img-responsive img-fluid img-title"/>
-          </div>      
-    </div>
-
+      <div> 
+        <MDBContainer fluid>
+                <div className="col-sm-6 nopadding">
+                    <img src={require('./ImagesView/Blackpepper-Kebab.jpg')} className="img-responsive img-fluid img-title"/>
+                </div>
+                <div className="col-sm-6 nopadding">
+                    <img src={require('./ImagesView/Beef-Cheese- Kebab.jpg')} className="img-responsive img-fluid img-title"/>
+                </div>
+                <div className="col-sm-6 nopadding">
+                    <img src={require('./ImagesView/Beef-Cheesy-Mayo-Kebab.jpg')} className="img-responsive img-fluid img-title"/>
+                </div>
+                <div className="col-sm-6 nopadding">
+                    <img src={require('./ImagesView/Supreme-Kebab-2.jpg')} className="img-responsive img-fluid img-title"/>
+                </div>  
+        </MDBContainer>      
+      </div>              
     );
   }
 }

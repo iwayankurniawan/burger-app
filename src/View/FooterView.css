@@ -1,3 +1,69 @@
 .black_Background{
     background-color: #000000;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.padding{
+	padding-left: 50%;
+	padding-top: 50%;
+	padding-bottom: 50%;
+}
+
+.dis-inline{
+	display: inline;
+}
+
+.text-color-white{
+	color: white;
+}
+
+.footer-col-item {
+  min-height: 140px;
+}
+
+.signUpNewsletter {
+  position: relative;
+}
+.signUpNewsletter .gt-email {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: 1px solid #666666;
+  border-radius: 0;
+  color: #000000;
+  height: 52px;
+}
+.signUpNewsletter .btn-go {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border-color: #666666;
+  border-style: solid;
+  border-width: 0 0 0 1px;
+  bottom: 0;
+  color: #ffffff;
+  font-size: 16px;
+  position: absolute;
+  right: 0;
+  text-transform: uppercase;
+  top: 0;
+  width: 52px;
+}
+
+.title{
+	text-align: left;
+	color:#fff;
+	font-size:25px;
+}
+
+.acount-icon a{
+	text-align: left;
+	display:block;
+	color:#fff;
+	font-size:18px;
+	padding:5px;
+	text-decoration:none;
+}
+
+.acount-icon .fa{
+	margin-right:25px;
 }

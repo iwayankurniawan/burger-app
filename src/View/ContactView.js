@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Redirect } from 'react-router';
 
+import './ContactView.css';
+
 class ContactView extends Component {
   constructor(props) {
     super(props)
@@ -28,8 +30,21 @@ class ContactView extends Component {
 
   render() {
     return(
-      <div className="row">
-        <p>Contact</p>
+      <div>
+        <div className="row contact-background">
+          <p>Kontak</p>
+        </div>
+        <div className="col-sm-6 contact-background-white">
+          <p>Kabobs memiliki 18 outlet yang tersebar di Kota Bandung dan sekitarnya. Kunjungi outlet Kabobs terdekat bersama teman, keluarga atau pasangan. Kamu juga bisa memesan Kabobs melalui aplikasi Go-Jek dan Grab.</p>
+         </div>
+        <div className="col-sm-6 contact-background-white">
+          <p>Oulet Dago Lt. 2 Jl. Ir. H. Djuanda No. 310, Kota Bandung 40135</p>
+          <p>email</p>
+          <p>line</p>
+          <p>instagram</p>
+          <p>Dapatkan email tentang promo, menu baru dan lowongan pekerjaan.</p>
+          <p>Insert Email</p>
+        </div>
       </div>
     );
   }

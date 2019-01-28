@@ -50,9 +50,7 @@ class MainView extends Component {
         <div className="row">
           <HomeViewKataMereka model={this.props.model}/>
         </div>
-        <div className="row">
-          <HomeViewMenu model={this.props.model}/>
-        </div>
+        
         <div className="row">
           <HomeViewOutlet model={this.props.model}/>
         </div>
