@@ -45,7 +45,7 @@ class FooterView extends Component {
                   </MDBCol>
                   <MDBCol md="5">
                     <MDBCol md="3">                      
-                      <ul className="list-unstyled">
+                      <ul className="list-unstyled acount-icon">
                         <li className="list-unstyled text-center">
                           <a href="#!">Story</a>
                         </li>
@@ -58,7 +58,7 @@ class FooterView extends Component {
                       </ul>
                     </MDBCol>
                     <MDBCol md="3">                      
-                      <ul className="list-unstyled">
+                      <ul className="list-unstyled acount-icon">
                         <li className="list-unstyled text-center">
                           <a href="#!">Alacarte</a>
                         </li>
@@ -84,16 +84,17 @@ class FooterView extends Component {
                     </div>                   
                   </MDBCol>
                   <MDBCol md="4">
-                    <h4 className="title">My Account</h4>
-                    <i class="fab fa-instagram"></i>
-                      <span className="acount-icon">
-                        <MDBIcon icon="camera-retro" size="lg"/> 
-                        <p><MDBIcon icon="bolt" size="3x" className="amber-text pr-3" />amber-text</p>         
-                        <a href="#"><i className="fa fa-facebook" aria-hidden="true"></i> List</a>
-                        <a href="#"><i className="fa fa-users" aria-hidden="true"></i>Group</a>
-                        <a href="#"><i className="fa fa-user" aria-hidden="true"></i> Profile</a>
-                        <a href="#"><i className="fa fa-globe" aria-hidden="true"></i> Language</a>           
+                    <MDBCol md="7">
+                     <span className="acount-icon2">       
+                        <a href="#"><i className="fa fa-instagram" aria-hidden="true"></i>@kabobs.id</a>
+                        <a href="#"><i className="fa fa-facebook" aria-hidden="true"></i>@kabobs.id</a>
+                        <a href="#"><i className="fa fa-envelope-o" aria-hidden="true"></i>kabobs.id@gmail.com</a>
                       </span>
+                    </MDBCol>
+                    <MDBCol md="5">
+                      <h4 className="title2">Management Office</h4>
+                      <h6 className="title3">Management Office Outlet Dago Lt. 2 Jl. Ir. H. Djuanda No. 310, Kota Bandung 40135</h6>
+                    </MDBCol>                    
                   </MDBCol>
                 </MDBRow>
               </MDBContainer>

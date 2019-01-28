@@ -55,7 +55,31 @@
 	font-size:25px;
 }
 
+.title2{
+	text-align: left;
+	color:#fff;
+	font-size:15px;
+	font-weight: bold;
+}
+
+.title3{
+	text-align: left;
+	color:#fff;
+	font-size:13px;
+	font-weight: normal;
+}
+
+
 .acount-icon a{
+	text-align: center;
+	display:block;
+	color:#fff;
+	font-size:18px;
+	padding:5px;
+	text-decoration:none;
+}
+
+.acount-icon2 a{
 	text-align: left;
 	display:block;
 	color:#fff;
@@ -65,5 +89,9 @@
 }
 
 .acount-icon .fa{
+	margin-right:25px;
+}
+
+.acount-icon2 .fa{
 	margin-right:25px;
 }

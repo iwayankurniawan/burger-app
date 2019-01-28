@@ -6,6 +6,8 @@ import { BrowserRouter } from 'react-router-dom';
 //import serviceWorker from './serviceWorker';
 import registerServiceWorker from './registerServiceWorker';
 
+import 'font-awesome/css/font-awesome.min.css'; 
+
 
 ReactDOM.render((
     <BrowserRouter>
