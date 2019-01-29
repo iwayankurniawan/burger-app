@@ -40,7 +40,7 @@ class HomeViewSlides extends Component {
       <Carousel autoplay>
           <div>
               <img src={require('./ImagesView/Blackpepper-Kebab.jpg')} />
-              <h1 className="legend">Blackpepper Kebab 1</h1>
+              <p className="legend">Blackpepper Kebab 1</p>
           </div>
           <div>
               <img src={require('./ImagesView/Blackpepper-Kebab.jpg')} />

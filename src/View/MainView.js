@@ -4,7 +4,6 @@ import { Redirect } from 'react-router';
 
 import HomeView from './MainViewPart/HomeView';
 import HomeViewSlides from './MainViewPart/HomeViewSlides';
-import HomeViewStory from './MainViewPart/HomeViewStory';
 import HomeViewKataMereka from './MainViewPart/HomeViewKataMereka';
 import HomeViewMenu from './MainViewPart/HomeViewMenu';
 import HomeViewOutlet from './MainViewPart/HomeViewOutlet';
@@ -42,9 +41,6 @@ class MainView extends Component {
         </div>
         <div className="row">
           <HomeView model={this.props.model}/>
-        </div>
-        <div className="row">
-          <HomeViewStory model={this.props.model}/>
         </div>
         
         <div className="row">

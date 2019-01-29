@@ -29,14 +29,14 @@ class HomeViewKarir extends Component {
   render() {
     return(
       <div>
-        <div className="col-sm-6">
+        <div className="col-sm-8">
             <img src={require('./ImagesView/LandingPage/good-employer-image.png')} className="img-responsive img-fluid img-title"/>
         </div>
         <div className="col-sm-4">
           <h1>AYO BERKARIR BERSAMA KABOBS!</h1>
           <p>KABOBS mengedepankan etos kerja yang baik dan suasana kekeluargaan.</p>
           <div className="row">
-          <button type="button" class="btn btn-outline-secondary btn-lg button-style">Posisi yang tersedia</button>
+          <button type="button" className="btn btn-outline-secondary btn-lg button-style">Posisi yang tersedia</button>
         </div>
         </div>
       </div>

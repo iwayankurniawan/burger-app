@@ -28,17 +28,23 @@ class HomeViewOutlet extends Component {
 
   render() {
     return(
-      <div>
-        <div className="col-sm-6">
-            <img src={require('./ImagesView/LandingPage/outlet-image.png')} className="img-responsive img-fluid img-title"/>
+      <div>       
+        <div className="container-fluid">
+          <div className="row">                       
+              <div className="col-sm-8">
+                  <img src={require('./ImagesView/LandingPage/outlet-image.png')} className="img-responsive img-fluid"/>
+              </div>
+              <div className="col-sm-4">
+                <h1>KABOBS MEMILIKI 18 OUTLET YANG TERSEBAR DI KOTA BANDUNG DAN SEKITARNYA.</h1>
+                <button type="button" className="btn btn-outline-secondary btn-lg button-style">Semua Outlet</button>
+              </div>
+          </div>
         </div>
-        <div className="col-sm-4">
-          <h1>KABOBS MEMILIKI 18 OUTLET YANG TERSEBAR DI KOTA BANDUNG DAN SEKITARNYA.</h1>
-          <div className="row">
-          <button type="button" class="btn btn-outline-secondary btn-lg button-style">Semua Outlet</button>
-        </div>
-        </div>
+
+
       </div>
+
+
 
     );
   }
