@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Redirect } from 'react-router';
 
+import { Carousel } from 'react-responsive-carousel';
+
 import './HeaderBarView.css';
 
 class HeaderBarView extends Component {
