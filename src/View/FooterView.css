@@ -1,9 +1,6 @@
 .black_Background{
     background-color: #000000;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
+	
 }
 
 .padding{
@@ -22,6 +19,8 @@
 
 .footer-col-item {
   min-height: 140px;
+  color: white;
+  padding-top: 10px;
 }
 
 .signUpNewsletter {
@@ -56,14 +55,14 @@
 }
 
 .title2{
-	text-align: left;
+
 	color:#fff;
 	font-size:15px;
 	font-weight: bold;
 }
 
 .title3{
-	text-align: left;
+
 	color:#fff;
 	font-size:13px;
 	font-weight: normal;
@@ -71,11 +70,10 @@
 
 
 .acount-icon a{
-	text-align: center;
+
 	display:block;
 	color:#fff;
 	font-size:18px;
-	padding:5px;
 	text-decoration:none;
 }
 
